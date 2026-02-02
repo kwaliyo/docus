@@ -14,7 +14,7 @@ export default defineAppConfig({
   seo: {
     siteName: 'NACWS E-Learning',
     titleTemplate: '%s • NACWS E-Learning',
-    defaultTitle: 'NACWS E-Learning',
+    defaultTitle: 'NACWS E-Learning'
   },
   header: {
     title: '',
