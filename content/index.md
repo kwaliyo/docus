@@ -1,10 +1,64 @@
 ---
 seo:
-  title: Nuxt Docs Template
+  title: NACWS E-LIBRARY
   description: Create stunning, fast and SEO-optimized documentation sites with Nuxt UI.
 ---
 
-::u-page-hero{class="dark:bg-gradient-to-b from-neutral-900 to-neutral-950"}
+<!-- ::u-page-hero{class="dark:bg-gradient-to-b from-neutral-900 to-neutral-950 p-8 md:p-16"}
+---
+orientation: horizontal
+---
+
+#top
+:hero-background
+
+:::card-group{class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 p-4 md:p-8"}
+
+  ::card{class="transition-transform hover:scale-105 hover:shadow-xl rounded-xl p-6"}
+  ---
+  title: Dashboard
+  icon: i-simple-icons-github
+  to: https://github.com/nuxt-ui-templates/dashboard
+  target: _blank
+  ---
+  A dashboard with multi-column layout.
+  ::
+
+  ::card{class="transition-transform hover:scale-105 hover:shadow-xl rounded-xl p-6"}
+  ---
+  title: SaaS
+  icon: i-simple-icons-github
+  to: https://github.com/nuxt-ui-templates/saas
+  target: _blank
+  ---
+  A template with landing, pricing, docs and blog.
+  ::
+
+  ::card{class="transition-transform hover:scale-105 hover:shadow-xl rounded-xl p-6"}
+  ---
+  title: Docs
+  icon: i-simple-icons-github
+  to: https://github.com/nuxt-ui-templates/docs
+  target: _blank
+  ---
+  A documentation with `@nuxt/content`.
+  ::
+
+  ::card{class="transition-transform hover:scale-105 hover:shadow-xl rounded-xl p-6"}
+  ---
+  title: Landing
+  icon: i-simple-icons-github
+  to: https://github.com/nuxt-ui-templates/landing
+  target: _blank
+  ---
+  A landing page you can use as starting point.
+  ::
+
+::: -->
+
+
+
+<!-- ::u-page-hero{class="dark:bg-gradient-to-b from-neutral-900 to-neutral-950"}
 ---
 orientation: horizontal
 ---
@@ -68,10 +122,10 @@ Build professional documentation with Nuxt UI's powerful components, enhanced ty
     css: ['~/assets/css/main.css']
   })
   ```
-  :::
-::
+  ::: 
+:: -->
 
-::u-page-section{class="dark:bg-neutral-950"}
+<!-- ::u-page-section{class="dark:bg-neutral-950"}
 #title
 Powered by Nuxt UI components
 
@@ -156,7 +210,7 @@ Powered by Nuxt UI components
   :::
 ::
 
-::u-page-section{class="dark:bg-neutral-950"}
+<!-- ::u-page-section{class="dark:bg-neutral-950"}
 #title
 Enhanced with Nuxt Content
 
@@ -239,25 +293,52 @@ Enhanced with Nuxt Content
   #description
   Content lives in your repository. Branch, review, and deploy documentation alongside your code.
   :::
-::
+:: -->
 
 ::u-page-section{class="dark:bg-gradient-to-b from-neutral-950 to-neutral-900"}
-  :::u-page-c-t-a
-  ---
-  links:
-    - label: Start building
-      to: '/getting-started'
-      trailingIcon: i-lucide-arrow-right
-    - label: View on GitHub
-      to: 'https://github.com/nuxt-ui-templates/docs'
-      target: _blank
-      variant: subtle
-      icon: i-simple-icons-github
-  title: Ready to build an amazing documentation?
-  description: Join thousands of developers building with Nuxt and Nuxt UI. Get this template and start shipping today.
-  class: dark:bg-neutral-950
-  ---
+#top
+:hero-background
 
-  :stars-bg
-  :::
+:::card-group{class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 p-4 md:p-8"}
+
+  ::card{class="transition-transform hover:scale-105 hover:shadow-xl rounded-xl p-6"}
+  ---
+  title: Python Fundamentals
+  icon: i-simple-icons-github
+  to: /python/intro-to-python
+  ---
+  Learn python programming here.
+  ::
+
+  ::card{class="transition-transform hover:scale-105 hover:shadow-xl rounded-xl p-6"}
+  ---
+  title: SaaS
+  icon: i-simple-icons-github
+  to: https://github.com/nuxt-ui-templates/saas
+  target: _blank
+  ---
+  A template with landing, pricing, docs and blog.
+  ::
+
+  ::card{class="transition-transform hover:scale-105 hover:shadow-xl rounded-xl p-6"}
+  ---
+  title: Docs
+  icon: i-simple-icons-github
+  to: https://github.com/nuxt-ui-templates/docs
+  target: _blank
+  ---
+  A documentation with `@nuxt/content`.
+  ::
+
+  ::card{class="transition-transform hover:scale-105 hover:shadow-xl rounded-xl p-6"}
+  ---
+  title: Landing
+  icon: i-simple-icons-github
+  to: https://github.com/nuxt-ui-templates/landing
+  target: _blank
+  ---
+  A landing page you can use as starting point.
+  ::
+
+:::
 ::

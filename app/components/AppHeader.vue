@@ -39,10 +39,11 @@ const { header } = useAppConfig()
       #left
     >
       <NuxtLink :to="header?.to || '/'">
-        <AppLogo class="w-auto h-6 shrink-0" />
+        <!-- <AppLogo class="w-auto h-6 shrink-0" /> -->
+        NACWS E-Learning
       </NuxtLink>
 
-      <TemplateMenu />
+      <!-- <TemplateMenu /> -->
     </template>
 
     <template #right>
