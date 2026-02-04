@@ -3,8 +3,6 @@ seo:
   title: NACWS E-LIBRARY
   description: Create stunning, fast and SEO-optimized documentation sites with Nuxt UI.
 ---
-
-
 ::u-page-section{class="dark:bg-gradient-to-b from-neutral-950 to-neutral-900"}
 #top
 :hero-background
